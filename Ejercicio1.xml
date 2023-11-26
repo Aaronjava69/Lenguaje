@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda>
+<agenda>
+    <contacto>
+        <nombre>Martin</nombre>
+        <apellidos>Ricardo Gomez</apellidos>
+        <direccion> CALLE LEONARDO PRIETO CASTRO 8, 28040 MADRID </direccion>
+        <telefonos>
+            <casa>555-153-4587</casa>
+            <movil>555-987-6543</movil>
+            <trabajo>665-595-5555</trabajo>
+        </telefonos>
+    </contacto>
+    <contacto>
+    </contacto>
+    <!-- Puedes agregar más contactos aquí -->
+</agenda>

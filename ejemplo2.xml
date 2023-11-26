@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+ <!DOCTYPE libro>
+<libro>
+    <titulo>Lenguaje de marcas</titulo>
+    <autor>Desarrollo de Aplicaciones Webs</autor>
+    <autor>La clase 1DAW</autor>
+    <editorial>Ies jaroso</editorial>
+    <isbn>12345678</isbn>
+    <edicion>1</edicion>
+    <paginas>450</paginas>
+</libro>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+    <!DOCTYPE alumnos>
+    <alumnos>
+        <nombre>Fernando Fernandez Gonzales</nombre>
+        <nombre>Isabael Gonzales Fernandez</nombre>
+        <nombre>Ricardo Martinez Lopez</nombre>
+
+        <profesores>
+        <nombre>Pilar Ruiz Perez</nombre>
+        <nombre>Tomas Rodriguez Hernandez</nombre>
+        </profesores>
+    </alumnos>

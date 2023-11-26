@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario reserva en un restaurante</title>
+    <style>
+        html{
+            background-color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Ejercicio-A</legend>
+            <label for="name">Nombre</label> <br>
+            <input type="text" name="nombre"> <br>
+            <label for="apellido">Apellidos</label> <br>
+            <input type="text" name="apellido"> <br>
+            <label for="correo">Correo electr&oacute;nico</label> <br>
+            <input type="text" name="correo"> <br>
+            <label for="comensales">N&uacute;mero de comensales</label> <br>
+            <input type="text" name="comensales"> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Ejercicio-B</legend>
+            <label for="">Seleccione el tipo de comida</label> <br>
+            <select name="" id="">
+                <Option value="selecciona" selected="selected">- selecciona -</Option>
+                <option value="Desayuno">Desayuno</option>
+                <option value="Comida">Comida</option>
+                <option value="Cena">Cena</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ejercicio-C</legend>
+            <input type="date" name="fecha">
+        </fieldset>
+
+        <fieldset>
+            <legend>Ejercicio-D</legend>
+            <label for="">elegir entre el lugar donde quiere la mesa:</label> <br>
+            <input type="radio" name="zona" checked="checked"> Zona terraza <br>
+            <input type="radio" name="zona"> Zona interior <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ejercicio-E</legend>
+            <label for="extras">Seleccione los extras</label><br>
+            <input type="checkbox" name="extras" id="1"> Musica en vivo <br>
+            <input type="checkbox" name="extras" id="2"> Camarero personalizado <br>
+            <input type="checkbox" name="extras" id="3"> Barra libre tras la comida <br>
+            <input type="checkbox" name="extras" id="4"> Otros <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Ejercicio-F</legend>
+            <label for="comentarios">Comentarios</label> <br>
+            <textarea name="comentarios" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br>
+            <input type="submit" name="Enviar">
+            <input type="reset" value="reset"> 
+    </form>
+</body>
+</html>
