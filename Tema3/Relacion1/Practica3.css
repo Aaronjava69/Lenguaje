@@ -1,0 +1,27 @@
+        #h1 {
+            color: green;
+            font-family: Arial;
+            font-size: 48pt;
+            font-weight: bold;
+        }
+
+        #h2 {
+            color: red;
+            font-family: Arial;
+            font-size: 26pt;
+            font-weight: bold;
+        }
+
+        .p {
+            color: blue;
+            font-family: Helvetica;
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        td {
+            color: black;
+            font-family: Times;
+            font-size: 11pt;
+            font-style: italic;
+        }
