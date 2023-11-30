@@ -1,0 +1,35 @@
+        h1 {
+            line-height: 24pt;
+            text-align: justify;
+            text-indent: 3cm;
+            text-transform: lowercase;
+            text-decoration: underline
+        }
+
+        .p {
+            line-height: 36pt;
+            text-decoration: line-through;
+            text-align: right;
+            text-transform: uppercase;
+        }
+
+        body {
+            line-height: 24pt;
+            text-align: center;
+            text-transform: capitalize;
+            text-indent: 1cm;
+        }
+
+        td{
+            line-height: 8pt;
+            text-decoration: none;
+            text-align: left;
+            text-transform: lowercase;
+            text-indent: 2cm;
+        }
+
+        table, tr,td,th {
+            border: 1px solid blueviolet;
+            border-collapse: collapse;
+            text-align: center;
+        }
