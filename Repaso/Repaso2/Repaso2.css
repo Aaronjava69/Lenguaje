@@ -1,0 +1,18 @@
+        table, tr,td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 40px;
+            text-align: center;
+        }
+
+        th{
+            background-color: yellow;
+        }
+
+        #rojo{
+            background-color: lightcoral;
+        }
+
+        .gris{
+            background-color: gray;
+        }
