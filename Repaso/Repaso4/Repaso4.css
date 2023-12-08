@@ -1,7 +1,30 @@
-    table, tr, td{
-        border: 2px solid yellowgreen;
+    table, tr, td, th{
+        border: 3px solid yellowgreen;
         border-collapse: collapse;
         text-align: center;
         height: 50px;
         width: 90px;
+    }
+
+    .Cuadro{
+        height: 10em;
+        width: 10cm;
+    }
+
+    .Horario{
+        width: 18cm;
+    }
+
+    #gris{
+        color: black;
+        background-color: gray;
+    }
+
+    #orange{
+        color: black;
+        background-color: orange;
+    }
+
+    #morado{
+        background-color: mediumorchid
     }
