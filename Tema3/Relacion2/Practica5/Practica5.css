@@ -1,0 +1,19 @@
+        .celeste{
+            background-color: aqua;
+        }
+
+        .verdana{
+            color: blue;
+            font-family: Verdana;
+            font-size: 20px;
+        }
+
+        .celeste.verdana{
+            text-decoration: underline;
+        }
+
+        .arial{
+            font-size: 30px;
+            color: green;
+            font-family: Arial;
+        }

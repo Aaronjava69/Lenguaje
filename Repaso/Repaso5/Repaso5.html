@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Repaso 5</title>
+    <link rel="stylesheet" href="Repaso5.css">
 </head>
 <body>
-    
+    <form action="#" method="post">
+        Nombre <br>
+        <input type="text" name="nombre"> <br>
+        Apellido <br>
+        <input type="text" name="apellido"> <br>
+        Contraseña <br>
+        <input type="password" name="contraseña"> <br>
+
+        <br>
+
+        <fieldset>
+            <legend>Datos personales</legend>
+            <input type="checkbox" name="puesto_directivo" id="direccion"> Direcci&oacute;n <br>
+            <input type="checkbox" name="puesto_tecnico" id="directivo"> T&eacute;cnico <br>
+            <input type="checkbox" name="puesto_empleado" id="empleado"> Empleado
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Elecciones</legend>
+            <input type="radio" name="sexo" value="hombre" checked="checked"> Hombre <br>
+            <input type="radio" name="sexo" id="mujer"> Mujer <br>
+            <input type="reset" value="Borrar">
+            <input type="button" value="Guardar cambios">
+        </fieldset>
+    </form>
+
 </body>
 </html>
