@@ -1,0 +1,43 @@
+        table th, table, td {
+            border: 1px solid black;
+            line-height: 2em;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th {
+            background: url(Imagenes/fondo_gris.gif);
+            padding: 0 .9em;
+        }
+
+        table th.euro {
+            background: url(Imagenes/euro.png) no-repeat left center;
+            padding: 0 .3em 0 1.2em;
+        }
+
+        table th.dolar {
+            background: url(Imagenes/dolar.png) no-repeat left center;
+            padding: 0 .3em 0 1.2em;
+        }
+
+        table th.libra {
+            background: url(Imagenes/libra.png) no-repeat left center;
+            padding: 0 .3em 0 1.2em;
+        }
+
+        table th.yen {
+            background: url(Imagenes/yen.png) no-repeat left center;
+            padding: 0 .3em 0 1.2em;
+        }
+
+        .par {
+            background-color:#FFFFCC;
+        }
+
+        .fila {
+            text-align: left;
+        }
+        
+        table tr:hover {
+            background: #FFFF66;
+        }
