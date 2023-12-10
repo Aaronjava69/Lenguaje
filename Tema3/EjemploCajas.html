@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    body {
+        writing-mode: horizontal-tb;
+    }
+
+    .box {
+        /* Propiedades lógicas */
+        inline-size: 150px;
+        block-size: 150px;
+        border-block-start: 50px solid black;
+        border-block-end: 50px solid hotpink;
+
+        /* Otras propiedades */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: red;
+        color: #fff;
+        font-size: 42px;
+    }
+    </style>
+    
+    <div class="box">Hello</div>
+</body>
+</html>
