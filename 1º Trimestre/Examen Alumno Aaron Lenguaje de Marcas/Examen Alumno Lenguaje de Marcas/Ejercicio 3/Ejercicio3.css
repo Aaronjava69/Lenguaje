@@ -1,0 +1,31 @@
+        ul{
+            display: flex;
+            font-size: 1.5em;
+            grid-gap: 20px; /*Eso significa el ancho que separa las lineas*/
+            list-style: none;
+        }
+
+        a:link{
+            color: red;
+            text-decoration: none;
+            background-color: black;
+        }
+
+        a:visited{
+            color: green;
+        }
+
+        a:hover{
+            color: white;
+            text-decoration: underline;
+            background-color: red;
+        }
+        
+        a:focus{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: orange;
+        } 
