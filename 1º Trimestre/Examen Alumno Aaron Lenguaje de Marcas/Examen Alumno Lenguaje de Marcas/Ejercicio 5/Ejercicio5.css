@@ -1,18 +1,18 @@
         h1 {
             text-align: center;
         }
-        aside {
+        div {
             float: right;
             width: 25%;
         }
         article {
             width: 75%;
         }
-        #contenidosLibro {
+        #contenidos {
             list-style: none;
             display: flex;
             gap: 25px;
         }
-        #contenidosLibro > li {
+        #contenidos > li {
             width: 33%;
         }
