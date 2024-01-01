@@ -1,0 +1,56 @@
+        body{
+            padding: 25px;
+            background-color: lightgreen;
+            justify-content: center;
+        }
+        
+        h1{
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            text-shadow: 10pt black;
+            text-shadow: 10px -10px 5px forestgreen;
+        }
+
+        .lineaSeparacion {
+            margin: 5px;
+            position: relative;
+            width: 30%;
+            left: 35%;
+            border-top: 5px solid darkgreen;
+        }
+
+        #ghandi {
+            float: left;
+        }
+
+        p {
+            text-justify: distribute;
+        }
+
+        #king {
+            float: right;
+        }
+          
+        footer {
+            border-top: 5px darkgreen solid;
+        }
+          
+        footer > p {
+            font-size: 15px;
+        }
+          
+        .rojo {
+            color: red;
+            text-decoration: underline 4px;
+        }
+          
+        .azul {
+            color: blue;
+            text-transform: uppercase;
+        }
+
+        .dia {
+            padding: 5px;
+            border: 1px black solid;
+        }
