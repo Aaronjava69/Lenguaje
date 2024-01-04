@@ -1,0 +1,12 @@
+        table, th, td{
+            border: 3px solid orange;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .id2{
+            color: white;
+        }
+        .id1{
+            background-color: yellowgreen;
+        }
