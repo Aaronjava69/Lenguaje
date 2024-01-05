@@ -6,3 +6,16 @@
         h1{
             text-align: center;
         }
+
+        table, tr, th, td{
+            border-collapse: collapse;
+            border: 2px solid yellow;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th{
+            color: black;
+            background-color: purple;
+        }
