@@ -13,17 +13,17 @@
         }
 
         #Izquierdo{
-            width: 14%;
+            width: 18%;
             float: left;
         }
 
         #Centro{
-            width: 70%;
+            width: 30%;
             float: left;
         }
 
         #Derecha{
-            width: 14%;
+            width: 11%;
             float: left;
         }
 
