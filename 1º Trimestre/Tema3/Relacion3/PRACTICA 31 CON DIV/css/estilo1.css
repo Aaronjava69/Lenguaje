@@ -1,0 +1,33 @@
+        #Contenedor{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 0.8em;
+        }
+
+        #Navegador ul li{
+            display:inline-block;
+        }
+
+        #Cuerpo{
+            background-color: rosybrown;
+        }
+
+        #Izquierdo{
+            width: 14%;
+            float: left;
+        }
+
+        #Centro{
+            width: 70%;
+            float: left;
+        }
+
+        #Derecha{
+            width: 14%;
+            float: left;
+        }
+
+        #Pie{
+            clear: both;
+            text-align: center;
+        }
