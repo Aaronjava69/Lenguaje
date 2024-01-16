@@ -1,33 +1,37 @@
-        #Contenedor{
-            width: 80%;
-            margin: 0 auto;
-            font-size: 0.8em;
+        body {
+            display: grid;
+            justify-content: center;
         }
 
-        #Navegador ul li{
-            display:inline-block;
+        header {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 200px;
         }
 
-        #Cuerpo{
-            background-color: rosybrown;
+        article {
+            width: 850px;
+            text-align: justify;
         }
 
-        #Izquierdo{
-            width: 18%;
-            float: left;
+        #menu li { 
+            margin-left: 5px;
+            display: inline;
+        }
+        
+        #aside-menu {
+            font-family: system-ui;
+            font-size: 15px;
+            width: 225px;
         }
 
-        #Centro{
-            width: 30%;
-            float: left;
+        #menu li a {
+            text-decoration: none;
+            color: black;
         }
 
-        #Derecha{
-            width: 11%;
-            float: left;
-        }
-
-        #Pie{
-            clear: both;
-            text-align: center;
+        #contenido {
+            display: flex;
+            gap: 15px;
         }
