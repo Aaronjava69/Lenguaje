@@ -1,0 +1,150 @@
+        body {
+            color: #333333;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 12px;
+        }
+        
+        #Contenedor {
+            width: 90%;
+            height: 90%;
+            margin: 60px;
+            
+        }
+
+        #cabecera h1 a {
+            text-decoration: none;
+            color: #b7211f;
+        }
+        
+        #cabecera h2 {
+            margin-top: -25px;
+        }
+
+        #navegador {
+            background-color: #C00;
+            padding: 1px;
+        }
+
+        #navegador ul li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        
+        #navegador ul {
+            margin-left: -65px;
+            
+        }
+        
+        #navegador ul li {
+            padding-left: 2%;
+            font-size: medium;
+        }
+        
+        #navegador ul li a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #navegador ul li a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #navegador ul li a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        #Cuerpo {
+            padding: 25px 0px 0px 0px;
+            background: white;
+        }
+
+        #izquierda {
+            width: 78%;
+            float: left;
+            text-align: justify;
+           
+        }
+        
+        #izquierda h2 {
+            letter-spacing: -3px;
+        }
+        
+        #izquierda h2 a:link {
+            font-size: 24px;
+            color: #B7271F;
+            text-decoration: none;
+        }
+        
+        #izquierda h2 a:visited {
+            font-size: 24px;
+            color: #B7271F;
+            text-decoration: none;
+        }
+        
+        #izquierda a:link {
+            color: #B7271F;
+            text-decoration: none;
+        }
+        
+        #izquierda a:visited {
+            color: #B7271F;
+            text-decoration: none;
+        }
+        
+        #izquierda a:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+        
+        #derecha {
+            width: 20%;
+            float: right;
+            margin-left: 1%;
+            background-color: #FFDDDD;
+            font-size: 14px;
+            border: 1px solid black;
+        }
+
+        #derecha h2{
+            padding-left: 5%;
+        }
+
+        #derecha > ul {
+            padding: 0px 20px 0px  20px;
+        }
+
+
+        #derecha ul li {
+            border-bottom: 1px solid black;
+        }
+
+        #derecha ul li {
+            list-style-type: none;
+            padding-left: 20px;
+            
+        }
+
+        #derecha ul li a:link{
+            color:#666;
+            text-decoration: none;
+        }
+
+        #derecha ul li a:visited {
+            color:#666;
+            text-decoration: none;
+        }
+
+        #derecha ul li a:hover {
+            color:#c00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        #pie {
+            margin-top: 35%;
+            clear: both;
+            text-align: center;
+            border-top: 5px solid grey;
+        }
