@@ -3,46 +3,53 @@
             line-height: 1.8em;
             margin: 0;
             padding: 0;
+            background-color: #efe;
         }
 
-        a {
-            color: #efe;
-            text-decoration: none;
+        main {
+            padding: 10px;
+            width: 780px;
+            height: 630px;
+            margin: 80px auto;
+            background-color: #efe;
         }
 
-        a:visited {
-            COLOR: #262;
-            text-decoration: none;
-        }
-
-        a:hover {
-            COLOR: #333;
-            text-decoration: underline;
-        }
-
-        p {
-            margin: 5px 0 10px 0;
-        }
-
-        #header {
-            background: url(../images/header_verde.jpg);
+        header {
             height: 215px;
+            background-color: coral;
+            justify-content: space-between;
+            background: url(../images/header_verde.jpg);
             background-repeat: no-repeat;
+            line-height: 0px;
         }
 
-        #header h1 {
-            font-size: 25px;
-            line-height: 1px;
-            letter-spacing: -1px;
-            padding: 30px 0 5px 15px;
+        h1 {
+            font-size: 30px;
+            padding: 35px 0 0 10px;
             
         }
+    
+        h2 {
+            font-size: medium;
+            padding: 0 0 7px 10px;
+            color: white;
+        }
 
-        #header h2 {
-            letter-spacing: -1px;
-            padding: 0 0 0 15px;
-            line-height: 1px;
-            color: #efe;
+        section {
+            margin-bottom: 10px;
+            float: left;
+            width: 570px;
+            padding: 0px 10px 10px 10px;
+            margin-top: auto;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin: 20px -9px -5px;
+        }
+
+        section > ul {
+            padding: 0 19px 0 19px;
         }
 
         h3 {
@@ -52,44 +59,32 @@
             font-size: 1em;
             height: 24px;
             line-height: 24px;
+            margin-top: 0%;
         }
 
-        #wrap {
-            padding: 10px 10px 3px 10px;
-            width: 760px;
-            margin: 80px auto;
+        span {
+            font-weight: bold;
         }
 
-        #right {
-            margin-bottom: 1px;
-            float: left;
-            width: 550px;
-            padding: 0 10px 10px 10px;
-            margin-top: 10px;
-            background: #efe;
+        a:link {
+            color: #262;
+            text-decoration: none;
         }
 
-        #right h2 {
-            font-size: 2em;
+        a:visited {
+            color: #efe;
+            text-decoration: none;
         }
 
-        #right li {
-            float: left;
+        a:hover {
+            COLOR: #333;
+            text-decoration: underline;
         }
 
-        #Derecha {
+        aside {
             float: right;
-            width: 180px;
+            width: 190px;
+            background: #beffbE;
             margin-bottom: 10px;
-            margin-top: 20px;
-            background-color: #c7ffab;
-        }
-
-        #Derecha ul {
-            padding: 5px 10px 10px 15px;
-            margin: 0;
-        }
-
-        #Derecha li {
-            list-style-type: none;
+            margin-top: 30px;
         }
