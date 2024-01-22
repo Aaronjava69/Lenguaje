@@ -1,0 +1,20 @@
+        body {
+            background-color: #efe;
+            margin: 0;
+            padding: 0;
+        }
+
+        #Contenedor {
+            background-color: aqua;
+            width: 90%;
+            height: 90%;
+            margin: 60px;
+                    
+        }
+
+        #Cabecera{
+            background: orange url(images/bg.jpg) no-repeat;
+            height: 269px;
+            width: 820px;
+            
+        }
