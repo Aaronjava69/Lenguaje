@@ -2,19 +2,94 @@
             background-color: #efe;
             margin: 0;
             padding: 0;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         #Contenedor {
-            background-color: aqua;
-            width: 90%;
-            height: 90%;
-            margin: 60px;
-                    
+            background-color: #efe;
+            width: 70%;
+            margin: 100px 200px 100px 200px;               
         }
 
-        #Cabecera{
-            background: orange url(images/bg.jpg) no-repeat;
-            height: 269px;
-            width: 820px;
+        #Cabecera {
+            background: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 120px;
+            padding: 4px
             
+        }
+
+        #Cabecera h1 a {
+            color: #efe;
+            text-decoration: none;
+        }
+
+        #Cabecera h1 a:visited{
+            color: #efe;
+        }
+
+        #Cabecera h1 a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        #Cabecera h2 {
+            letter-spacing: -1px;
+            color: #efe;
+            margin-top: -25px;
+            font-size: 1em;
+        }
+
+        #Derecha {
+            float: right;
+            width: 880px;
+            margin-bottom: 10px;
+            margin-top: auto;
+            padding: 20px 10px 10px 10px;
+        }
+
+
+        #Derecha > h2 a {
+            color: orange;
+        }
+
+        #Derecha a {
+            color: orangered;
+        }
+
+        #Derecha a:hover {
+            color: black;
+        }
+
+        #Izquierda {
+            float: left;
+            width: 20%;
+            background: #ffd6b8 ;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        #Izquierda > ul {
+            list-style: none;
+            padding: 0 10px;
+            line-height: 30px;
+        }
+
+        #Izquierda a {
+            text-decoration: none;
+            color: orangered;
+        }
+
+        #Izquierda a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        h3 {
+            background: url(images/bg.jpg);
+            color: #efe;
+            height: 24px;
+            padding-left: 10px;
+            margin-top: 0%;
         }
