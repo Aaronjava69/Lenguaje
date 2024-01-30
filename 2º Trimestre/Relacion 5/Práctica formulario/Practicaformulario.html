@@ -1,38 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Practicaformulario.css">
 </head>
+
 <body>
-    <div id="Contenedor">
-    <h1>Recogida de datos</h1>
+    <header>
+        <h1>Recogida de datos</h1>
+    </header>
 
-    <fieldset>
-        <legend>A. Datos personales</legend>
-        1. Nombre <input type="text">
-        2. Apellido1<input type="text">
-        3. Apellido2<input type="text">
-        4. Telefono<input type="text">
-        5. Email <input type="text">
-        6. URL <input type="text" placeholder="Introduce la url de tu pagina">
-        7. Tu localidad 
-        
-        <select name="" id="">
-            <option value="cuevas">Cuevas</option>
-            <option value="vera">Vera</option>
-            <option value="garrucha">Garrucha</option>
-        </select>
-    </fieldset>
+    <form action="" method="get">
+        <fieldset class="fieldsetGrid">
+            <legend>A. Datos personales</legend>
+            <label for="nombre">
+                1. Nombre <input type="text" name="nombre" id="nombre" required autofocus>
+            </label>
 
-    <fieldset>
-        <legend>B. Datos del pedido</legend>
-        6. Fecha y hora <input type="datetime-local" name="" id="">
-        7. N&uacute;mero <input type="text" maxlength="10"      >
-    </fieldset>
-    </div>
+            <label for="apellido1">
+                2. Apellido1 <input type="text" name="apellido1" id="apellido1">
+            </label>
+
+            <label for="apellido2">
+                3. Apellido2 <input type="text" name="apellido2" id="apellido2">
+            </label>
+
+            <label for="telefono">
+                4. Telefono <input type="text" name="telefono" id="telefono">
+            </label>
+
+            <label for="email">
+                5. Email <input type="text" name="email" id="email">
+            </label>
+
+            <label for="url">
+                6. URL <input type="text" name="url" id="url" placeholder="Introduce la url de tu pagina">
+            </label>
+
+            <label for="localidad">
+                7. Localidad
+                <select name="localidad" id="localidad">
+                    <option value="cuevas">Cuevas</option>
+                    <option value="vera">Vera</option>
+                    <option value="garrucha">Garrucha</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset class="fieldsetGrid">
+            <legend>B. Datos del pedido</legend>
+            <label for="fecha y hora">
+            6. Fecha y hora <input type="datetime-local" name="fecha y hora" id="fecha y hora">
+            </label>
+
+            <label for="numero">
+            7. N&uacute;mero <input type="text" name="numero" id="numero" maxlength="10" >
+            </label>
+
+            <label for="color">8. Color del pedido
+                <input type="color" name="color" id="color">
+            </label>
+        </fieldset>
+
+        <fieldset id="datosEntrega">
+            <legend>C. Datos de entrega</legend>
+            <section>
+                <label for="fecha-entrega">9. Fecha de entrega
+                    <input type="date" name="fecha-entrega" id="fecha-entrega">
+                </label>
+                <label for="hora">10. Hora
+                    <input type="time" name="hora" id="hora">
+                </label>
+            </section>
+
+            <label for="documentacion">11. Documentación presentada:
+                <input type="checkbox" name="documentacion" id="documentacion" value="factura" class="roundedCheckBox">
+                Factura
+                <input type="checkbox" name="documentacion" id="documentacion" value="certificado"
+                    class="roundedCheckBox">Certificado
+            </label>
+
+            <label for="recogida">12. Recogida:
+                <input type="checkbox" name="recogida" id="recogida" value="tienda" class="roundedCheckBox"> Tienda
+                <input type="checkbox" name="recogida" id="recogida" value="casa" class="roundedCheckBox"> Casa
+            </label>
+        </fieldset>
+
+        <fieldset id="masInfo">
+            <legend>D. Más información</legend>
+            <label for="buscar">13. Busca aquí
+                <input type="search" name="buscar" id="buscar">
+                <button type="submit">Buscar</button>
+            </label>
+
+            <label id="comments" for="comentarios">14. Otros comentarios
+                <textarea name="comentarios" id="comentarios" placeholder="Introduce tus comentarios"
+                    rows="5"></textarea>
+            </label>
+        </fieldset>
+
+        <input id="submit" type="submit" name="enviar" id="enviar">
+    </form>
 
 </body>
+
 </html>
