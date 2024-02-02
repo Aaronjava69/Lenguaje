@@ -11,13 +11,13 @@
 </head>
 
 <body>
-	<div id="Contenedor">
-		<header>
-			<h1>HOJA DE INSCRIPCIÓN DE LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
-		</header>
+	<header>
+		<h1>HOJA DE INSCRIPCIÓN DE LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	</header>
 
+	<main>
 		<form action="" method="get">
-			<fieldset class="fieldsetGrid">
+			<fieldset>
 				<legend>Datos personales(*)</legend>
 				<label for="apellido">
 					Apellidos: <input type="text" name="apellido" id="apellido">
@@ -38,9 +38,9 @@
 				<label for="provincia">
 					Provincia:
 					<select name="provincia" id="provincia">
-						<option value="cuevas">Almeria</option>
-						<option value="vera">Granada</option>
-						<option value="garrucha">Málaga</option>
+						<option value="almeria">Almeria</option>
+						<option value="granada">Granada</option>
+						<option value="malaga">Málaga</option>
 						<option value="sevilla">Sevilla</option>
 						<option value="cordova">Cordoba</option>
 						<option value="jaen">Jaén</option>
@@ -53,7 +53,6 @@
 					Localidad: <input type="text" name="localidad" id="localidad">
 				</label>
 
-
 				<label for="email">
 					Email:<input type="text" name="email" id="email">
 				</label>
@@ -64,56 +63,77 @@
 			</fieldset>
 
 
-			<fieldset class="fieldsetGrid">
+			<fieldset>
 				<legend>Requisitos de acceso</legend>
 				<label for="directo">
-					<input type="radio" name="directo-bachillerato-grado medio-otros-mediante" id="directo"> Directo
+					<input type="radio" name="tipoAcceso" id="directo" value="directo" checked> Directo
 				</label>
 
-				<label for="bachillerato">
-					<input type="radio" name="directo-bachillerato-grado medio-otros-mediante" id="bachillerato">
-					Bachillerato LOGSE. Modalidad: <input type="text" placeholder="Modalidad de bachiller">
-				</label>
+				<ul>
+					<section>
+						<label for="bachillerato">
+							<input type="radio" name="tipoDirecto" id="bachillerato" value="bachillerato"> Bachillerato
+							Logse.
+						</label>
 
-				<label for="grado medio">
-					<input type="radio" name="directo-bachillerato-grado medio-otros-mediante" id="grado medio"> Grado
-					Medio
-				</label>
+						<label for="modalidad">
+							Modalidad: <input type="text" name="modalidad" id="modalidad"
+								placeholder="Modalidad de bachiller">
+						</label>
+					</section>
 
-				<label for="otros">
-					<input type="radio" name="directo-bachillerato-grado medio-otros-mediante" id="otros"> Otros
-					(especifique):
-				</label>
+					<label for="gradomedio">
+						<input type="radio" name="tipoDirecto" id="gradomedio"> Grado Medio
+					</label>
+
+					<section>
+						<label for="otro">
+							<input type="radio" name="tipoDirecto" id="otro" checked> Otros
+						</label>
+
+						<label for="especifico">
+							(especifique): <input type="text" name="Otros" id="especifico">
+						</label>
+					</section>
+				</ul>
 
 				<label for="prueba">
-					<input type="radio" name="directo-bachillerato-grado medio-otros-mediante" id="prueba"> Mediante
-					prueba
+					<input type="radio" name="tipoAcceso" id="prueba" value="prueba"> Mediante prueba
 				</label>
 			</fieldset>
 
 
-			<fieldset class="fieldsetGrid">
+			<fieldset>
 				<legend>Solicitud</legend>
 				<label for="ciclo">
 					Ciclo Formativo:
 					<select name="ciclo" id="ciclo">
-						<option value="selecciona">- selecciona -</option>
+						<option value="">- Selecciona -</option>
 						<option value="multiplataforma">CFGS Desarrollo Aplicaciones Multiplataforma</option>
 						<option value="web">CFGS Desarrollo Aplicaciones Web</option>
 						<option value="profesionales">CFGS Prevención Riesgos Profesionales</option>
 					</select>
 				</label>
 
-				En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:
-				Ciclos formativos:
-				<input type="text" name="" id="">
-				<input type="text" name="" id="">
-				Centros:
-				<input type="text" name="" id="">
-				<input type="text" name="" id="">
-				Localidad:
-				<input type="text" name="" id="">
-				<input type="text" name="" id="">
+				<p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:</p>
+
+				<section>
+					<h4>Ciclos formativos:</h4>
+					<input type="text" name="ciclo" id="ciclo">
+					<input type="text" name="ciclo2" id="ciclo2">
+				</section>
+
+				<section>
+					<h4>Centros:</h4>
+					<input type="text" name="centro" id="centro">
+					<input type="text" name="centro2" id="centro2">
+				</section>
+
+				<section>
+					<h4>Localidad:</h4>
+					<input type="text" name="localidad" id="localidad">
+					<input type="text" name="localidad2" id="localidad2">
+				</section>
 			</fieldset>
 
 			<fieldset>
@@ -127,41 +147,49 @@
 			<fieldset>
 				<legend>Comunicación</legend>
 
-				De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
-				Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley
-				4/1999, de 13 de enero,se informa que:
+				<p>De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
+					Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la
+					ley 4/1999, de 13 de enero,se informa que:</p>
 
-				Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya tenido
-				entrada en el registro del órgano
-				competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.
-				El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y
-				notificado la resolución
-				correspondiente, es desestimatorio de la solicitud.
+				<ul>
+					<li>Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya
+						tenido entrada en el registro del órgano competente para la tramitación, sin perjuicio de lo previsto 
+						en el artículo 42.5 de la misma ley.</li>
+					<li>El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya
+						dictado y notificado la resolución correspondiente, es desestimatorio de la solicitud.</li>
+				</ul>
 
+				<input type="text">, <input type="text" size="5"> de <input type="text"> de
+				<select name="" id="">
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
 
-				de de 2019
-				2020
-				2021
-				2022
+				<p>La persona solicitante,</p>
 
-				La persona solicitante,
-				Firma
-				Coloca aquí tu firma electrónica visible
-				Enviar
+				<label for="firma">
+					<h4>Firma</h4>
+					<textarea name="firma" id="firma" cols="20" rows="12"
+						placeholder="Coloca aquí tu firma electrónica visible"></textarea>
+				</label>
+
+				<input type="submit" value="Enviar">
 			</fieldset>
+		</form>
+	</main>
 
-			(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento
+	<footer>
+		<p>(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento
 			por la Consejeria de educación, en el uso
 			de las funciones propias que tiene atribuídas en el ámbito de sus competencias, pudiendo dirigirse a
 			cualquier órgano de la misma para ejercitar los derechos de acceso, rectificación,
 			cancelación y oposición, según lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de
-			Datos ."
+			Datos ."</p>
 
-			DIRECTOR/A O TITULAR DEL CENTRO
-		</form>
-	</div>
-
-
+		<h4>DIRECTOR/A O TITULAR DEL CENTRO</h4>
+	</footer>
 
 </body>
 
