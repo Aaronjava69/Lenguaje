@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Aplicar estilos generales al body para evitar márgenes predeterminados */
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Crear un contenedor de cuadrícula para los elementos */
+    .form-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+      gap: 10px; /* Espacio entre elementos */
+    }
+
+    /* Estilo para los inputs */
+    input {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      padding: 5px; /* Espaciado interno */
+    }
+  </style>
+  <title>Inputs en la misma fila y luego abajo con CSS Grid</title>
+</head>
+<body>
+  <div class="form-container">
+    <label for="input1">Input 1: <br> 
+    <input type="text" id="input1" name="input1">
+    </label>
+
+    <label for="input1">Input 1: <br> 
+        <input type="text" id="input1" name="input1">
+        </label>
+
+        <label for="input1">Input 1: <br> 
+            <input type="text" id="input1" name="input1">
+            </label>
+</body>
+</html>
+
