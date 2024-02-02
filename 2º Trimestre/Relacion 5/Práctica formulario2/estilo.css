@@ -28,7 +28,8 @@
         }
         
         fieldset {
-            border: 0;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
         }
         
         footer {
@@ -49,4 +50,28 @@
         footer h4 {
             text-align: center;
             font-size: 1rem;
+        }
+
+        #uno {
+            background-color: lightgray;
+        }
+
+        #dos {
+            background-color: lightyellow;
+        }
+    
+        #tres {
+            background-color: skyblue;
+        }
+
+        #cuatro {
+            background-color: palevioletred;
+        }
+
+        #cinco {
+            background-color: orange;
+        }
+
+        legend {
+            background-color: white;
         }
