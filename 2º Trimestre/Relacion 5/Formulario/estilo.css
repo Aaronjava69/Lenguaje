@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 2rem;
+  }
+  
+  header {
+    width: 50%;
+    text-align: center;
+    background-color: #f3f3f3;
+  }
+  
+  main {
+    width: 60%;
+    background-color: #f1f1f1;
+  }
+  
+  form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  legend {
+    background-color: white;
+  }
+  
+  label {
+    font-size: .90rem;
+  }
+  
+  #datosPersonales {
+    background-color: #a1a1a1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  #requisitosAcceso {
+    background-color: wheat;
+  }
+  
+  #solicitud {
+    background-color: rgb(39, 148, 148);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #documentacion {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+  }
+  #comunicacion {
+    background-color: rgb(197, 151, 37);
+  }
+  
+  #datosPersonales label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  #solicitud div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  #solicitud section {
+    display: grid;
+    gap: .5rem;
+  }
+  
+  footer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  footer p {
+    padding: .2rem;
+    text-align: center;
+    font-size: .8rem;
+    border: 4px dotted blue;
+    font-weight: bolder;
+  }
+  
+  #btn-text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  textarea {
+    align-self: flex-end;
+  }
+  
+  #submit {
+    width: 8rem;
+    font-size: 1.05rem;
+    padding: .3rem;
+    margin: 0 auto;
+  }
+  
+  footer h4 {
+    text-align: center;
+    font-size: 1rem;
+  }

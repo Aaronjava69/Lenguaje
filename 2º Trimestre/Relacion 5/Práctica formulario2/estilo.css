@@ -37,8 +37,6 @@
             flex-direction: column;
             gap: .5rem;
         }
-        
-        
 
         footer p {
             padding: .2rem;
@@ -55,18 +53,43 @@
 
         #uno {
             background-color: lightgray;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        #uno label {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
         }
 
         #dos {
-            background-color: lightyellow;
+            background-color: wheat;
+        }
+
+        #tres div {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
         }
     
+        #tres section {
+            display: grid;
+            gap: .5rem;
+        }
+
         #tres {
             background-color: skyblue;
+            display: flex;
+            flex-direction: column;
         }
 
         #cuatro {
             background-color: palevioletred;
+            display: flex;
+            flex-direction: column;
         }
 
         #cinco {
@@ -76,3 +99,21 @@
         legend {
             background-color: white;
         }
+
+        #area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+          }
+          
+        textarea {
+            align-self: flex-end;
+        }
+          
+        #submit {
+            width: 8rem;
+            font-size: 1.05rem;
+            padding: .3rem;
+            margin: 0 auto;
+          }

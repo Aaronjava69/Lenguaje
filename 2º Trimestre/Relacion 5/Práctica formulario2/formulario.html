@@ -117,6 +117,7 @@
 
 				<p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:</p>
 
+			<div>
 				<section>
 					<h4>Ciclos formativos:</h4>
 					<input type="text" name="ciclo" id="ciclo">
@@ -134,6 +135,7 @@
 					<input type="text" name="localidad" id="localidad">
 					<input type="text" name="localidad2" id="localidad2">
 				</section>
+			</div>
 			</fieldset>
 
 			<fieldset id="cuatro">
@@ -184,11 +186,12 @@
 
 				<label for="firma">
 					<h4>Firma</h4>
+					<section id="area">
 					<textarea name="firma" id="firma" cols="20" rows="12"
 						placeholder="Coloca aquí tu firma electrónica visible"></textarea>
+						<input type="submit" name="submit" id="submit">
+					</section>
 				</label>
-
-				<input type="submit" value="Enviar">
 			</fieldset>
 		</form>
 	</main>
